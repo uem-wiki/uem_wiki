@@ -42,6 +42,8 @@
 | karicms | 嵌入式 · 全栈开发 · 机器学习 | [访问](https://karicms.github.io/) |
 | Torosamy | — | [访问](https://www.torosamy.net/) |
 | QBDCQ | 视觉设计 · 3D · 数据库 | [访问](https://qbdcq.github.io/Q-Blog/) |
+| IronRoyal | AI · SW | [访问](https://rentianze666.top) |
+| SUXING | — | [访问](https://blog.nekoyume.top) |
 
 ### 实用网站
 

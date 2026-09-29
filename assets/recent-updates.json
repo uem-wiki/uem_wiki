@@ -1,7 +1,29 @@
 {
   "repository": "Auan-git/uem_wiki",
-  "generated_at": "2026-09-22T00:41:40+00:00",
+  "generated_at": "2026-09-29T03:50:54+00:00",
   "entries": [
+    {
+      "deployment_id": "6631588665",
+      "title": "fix(校园生活): 恢复体育场馆开放时间正文，附官方 Word 原件下载",
+      "date": "2026-09-24T06:23:27Z",
+      "url": "https://github.com/Auan-git/uem_wiki/actions/runs/35964216663/job/107519159731",
+      "commit": "a7f3ad313cb5b16f4eaa9c4a3f03b707647559fb",
+      "environment": "github-pages",
+      "state": "success",
+      "environment_url": "http://uem.xingqiwu.net.cn/",
+      "author": "learnerCodeZ"
+    },
+    {
+      "deployment_id": "6631222542",
+      "title": "Merge pull request #10 from qbdcq/main",
+      "date": "2026-09-24T05:54:39Z",
+      "url": "https://github.com/Auan-git/uem_wiki/actions/runs/35962010044/job/107512431808",
+      "commit": "95eedf60bae102b1ccbda547d754853d31c4e138",
+      "environment": "github-pages",
+      "state": "success",
+      "environment_url": "http://uem.xingqiwu.net.cn/",
+      "author": "learnerCoderZ"
+    },
     {
       "deployment_id": "6560823745",
       "title": "修复了一些已知问题",
@@ -41,28 +63,6 @@
       "date": "2026-09-15T12:41:51Z",
       "url": "https://github.com/Auan-git/uem_wiki/actions/runs/34970335068/job/104384856072",
       "commit": "d0aab066d0f93bbf0a7844c1603582aed4e91ffb",
-      "environment": "github-pages",
-      "state": "success",
-      "environment_url": "http://uem.xingqiwu.net.cn/",
-      "author": "learnerCodeZ"
-    },
-    {
-      "deployment_id": "6455386990",
-      "title": "feat: 构建脚本重构+友情链接页面+全站页面重生成",
-      "date": "2026-09-15T09:05:01Z",
-      "url": "https://github.com/Auan-git/uem_wiki/actions/runs/34950489822/job/104320081719",
-      "commit": "46eea8919510a3ad51f49375599fa5172289eaa1",
-      "environment": "github-pages",
-      "state": "success",
-      "environment_url": "http://uem.xingqiwu.net.cn/",
-      "author": "learnerCodeZ"
-    },
-    {
-      "deployment_id": "6422255746",
-      "title": "fix: PC极客社官网更新 + 恢复关于我们贡献者墙渲染脚本",
-      "date": "2026-09-13T13:50:15Z",
-      "url": "https://github.com/Auan-git/uem_wiki/actions/runs/34760918328/job/103733511566",
-      "commit": "fefd29380902cfd0ef2989b0f4c9fb1d20a54df3",
       "environment": "github-pages",
       "state": "success",
       "environment_url": "http://uem.xingqiwu.net.cn/",

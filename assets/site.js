@@ -55,7 +55,7 @@
 
   function loadNavigation() {
     if (!navigationPromise) {
-      navigationPromise = fetch("/navigation.json")
+      navigationPromise = fetch("/navigation.json", { cache: "no-cache" })
         .then(function (response) {
           if (!response.ok) {
             throw new Error("navigation unavailable");
