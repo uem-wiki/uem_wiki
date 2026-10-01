@@ -1,71 +1,27 @@
 {
-  "repository": "Auan-git/uem_wiki",
-  "generated_at": "2026-09-29T03:50:54+00:00",
+  "repository": "uem-wiki/uem_wiki",
+  "generated_at": "2026-09-30T11:02:21+00:00",
   "entries": [
     {
-      "deployment_id": "6631588665",
-      "title": "fix(校园生活): 恢复体育场馆开放时间正文，附官方 Word 原件下载",
-      "date": "2026-09-24T06:23:27Z",
-      "url": "https://github.com/Auan-git/uem_wiki/actions/runs/35964216663/job/107519159731",
-      "commit": "a7f3ad313cb5b16f4eaa9c4a3f03b707647559fb",
+      "deployment_id": "6752142179",
+      "title": "Update CNAME",
+      "date": "2026-09-30T05:20:23Z",
+      "url": "https://github.com/uem-wiki/uem_wiki/actions/runs/36672907514/job/109751635399",
+      "commit": "91a9f696bd46060e10be687b70d1e75d88c8c43f",
       "environment": "github-pages",
       "state": "success",
-      "environment_url": "http://uem.xingqiwu.net.cn/",
-      "author": "learnerCodeZ"
+      "environment_url": "http://uemwiki.top/",
+      "author": "edge"
     },
     {
-      "deployment_id": "6631222542",
-      "title": "Merge pull request #10 from qbdcq/main",
-      "date": "2026-09-24T05:54:39Z",
-      "url": "https://github.com/Auan-git/uem_wiki/actions/runs/35962010044/job/107512431808",
-      "commit": "95eedf60bae102b1ccbda547d754853d31c4e138",
+      "deployment_id": "6752122405",
+      "title": "feat(博客): 新增 IronRoyal、SUXING 博客卡片 + 侧边栏改名「链接」",
+      "date": "2026-09-30T05:18:42Z",
+      "url": "https://github.com/uem-wiki/uem_wiki/actions/runs/36672788392/job/109751261327",
+      "commit": "4f2766301dfee486521081c3eae402a96158ad2f",
       "environment": "github-pages",
       "state": "success",
-      "environment_url": "http://uem.xingqiwu.net.cn/",
-      "author": "learnerCoderZ"
-    },
-    {
-      "deployment_id": "6560823745",
-      "title": "修复了一些已知问题",
-      "date": "2026-09-21T03:00:40Z",
-      "url": "https://github.com/Auan-git/uem_wiki/actions/runs/35556007127/job/106199700112",
-      "commit": "66a3d06bd4716cf5c7ffa32d5dafefdb49cdd9b7",
-      "environment": "github-pages",
-      "state": "success",
-      "environment_url": "http://uem.xingqiwu.net.cn/",
-      "author": "learnerCoderZ"
-    },
-    {
-      "deployment_id": "6542011401",
-      "title": "style(theme): 配色统一回改动前的暖色调，修复侧边栏颜色不一致",
-      "date": "2026-09-19T14:34:39Z",
-      "url": "https://github.com/Auan-git/uem_wiki/actions/runs/35449141426/job/105913164457",
-      "commit": "7a0fae9c4d139456b09c2ae4c2687f9e3c51a3a4",
-      "environment": "github-pages",
-      "state": "success",
-      "environment_url": "http://uem.xingqiwu.net.cn/",
-      "author": "learnerCodeZ"
-    },
-    {
-      "deployment_id": "6541968435",
-      "title": "调整了架构，左侧目录代码及顶部导航栏代码独立加载，不会随子页面切换刷新，目录由json文件统一管理，页面加载时从json拉取数据，删除了冗余代码，优化了构建函数，优化了配色和交互体验。",
-      "date": "2026-09-19T14:30:17Z",
-      "url": "https://github.com/Auan-git/uem_wiki/actions/runs/35448916467/job/105912573966",
-      "commit": "83d8b7949a6c21b0f8df0a3257e052bb651517f6",
-      "environment": "github-pages",
-      "state": "success",
-      "environment_url": "http://uem.xingqiwu.net.cn/",
-      "author": "雨霞 林"
-    },
-    {
-      "deployment_id": "6459032949",
-      "title": "feat: 新增体育场馆开放时间页（2026年9月）并接入全站导航",
-      "date": "2026-09-15T12:41:51Z",
-      "url": "https://github.com/Auan-git/uem_wiki/actions/runs/34970335068/job/104384856072",
-      "commit": "d0aab066d0f93bbf0a7844c1603582aed4e91ffb",
-      "environment": "github-pages",
-      "state": "success",
-      "environment_url": "http://uem.xingqiwu.net.cn/",
+      "environment_url": "https://uem-wiki.github.io/uem_wiki/",
       "author": "learnerCodeZ"
     }
   ]

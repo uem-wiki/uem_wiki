@@ -22,7 +22,7 @@ OUTPUT_FILE = BASE_DIR / "assets" / "recent-updates.json"
 STATE_FILE = BASE_DIR / ".recent-updates-state.json"
 API_ROOT = "https://api.github.com"
 USER_AGENT = "uem-wiki-build"
-DEFAULT_REPOSITORY = "Auan-git/uem_wiki"
+DEFAULT_REPOSITORY = "uem_wiki/uem_wiki"
 
 
 def parse_github_repository(remote_url):

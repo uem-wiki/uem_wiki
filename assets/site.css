@@ -89,9 +89,9 @@ html[data-theme="dark"] .theme-icon-sun { display: inline; }
 .wiki-sidebar.collapsed { transform: translateX(-100%); opacity: 0; pointer-events: none; }
 .sidebar-toggle {
   position: fixed; top: 72px; left: 240px;
-  width: 18px; height: 36px; border-radius: 0 4px 4px 0;
+  width: 22px; height: 36px; border-radius: 0 4px 4px 0;
   background: var(--btn-bg); color: var(--color-on-primary);
-  border: none; cursor: pointer; font-size: 12px;
+  border: none; cursor: pointer; font-size: 20px;
   display: flex; align-items: center; justify-content: center;
   transition: left 0.3s ease; z-index: 51;
 }
