@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"毕业条件","description":"","frontmatter":{},"headers":[],"relativePath":"学分绩点/毕业条件.md","filePath":"学分绩点/毕业条件.md"}');
+const _sfc_main = { name: "学分绩点/毕业条件.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="毕业条件" tabindex="-1">毕业条件 <a class="header-anchor" href="#毕业条件" aria-label="Permalink to &quot;毕业条件&quot;">​</a></h1><blockquote><p>本文列出大学毕业的完整要求清单</p></blockquote><h2 id="必要条件" tabindex="-1">必要条件 <a class="header-anchor" href="#必要条件" aria-label="Permalink to &quot;必要条件&quot;">​</a></h2><h3 id="_1-学分要求" tabindex="-1">1. 学分要求 <a class="header-anchor" href="#_1-学分要求" aria-label="Permalink to &quot;1. 学分要求&quot;">​</a></h3><table tabindex="0"><thead><tr><th>类别</th><th>学分要求</th><th>完成情况</th></tr></thead><tbody><tr><td>公共必修课</td><td>~40 学分</td><td>□</td></tr><tr><td>专业必修课</td><td>~50 学分</td><td>□</td></tr><tr><td>专业选修课</td><td>~20 学分</td><td>□</td></tr><tr><td>公共选修课</td><td>~10 学分</td><td>□</td></tr><tr><td>实践环节</td><td>~20 学分</td><td>□</td></tr><tr><td><strong>总计</strong></td><td><strong>~140 学分</strong></td><td>具体以学校最新规定为准</td></tr></tbody></table><h3 id="_2-成绩要求" tabindex="-1">2. 成绩要求 <a class="header-anchor" href="#_2-成绩要求" aria-label="Permalink to &quot;2. 成绩要求&quot;">​</a></h3><ul><li>所有课程成绩合格（≥60分）</li><li>无挂科记录（或已补修合格）</li><li>绩点达到学校要求（通常 ≥2.0）</li></ul><h3 id="_3-其他要求" tabindex="-1">3. 其他要求 <a class="header-anchor" href="#_3-其他要求" aria-label="Permalink to &quot;3. 其他要求&quot;">​</a></h3><ul><li>英语四级成绩（具体分数以学校规定为准）</li><li>计算机等级考试（如有要求）</li><li>毕业论文/设计通过答辩</li></ul><h2 id="毕业流程" tabindex="-1">毕业流程 <a class="header-anchor" href="#毕业流程" aria-label="Permalink to &quot;毕业流程&quot;">​</a></h2><table tabindex="0"><thead><tr><th>时间</th><th>事项</th><th>说明</th></tr></thead><tbody><tr><td>大四上</td><td>确认学分</td><td>检查是否修满学分</td></tr><tr><td>大四上</td><td>选题</td><td>确定毕业论文/设计题目</td></tr><tr><td>大四下</td><td>完成论文</td><td>撰写毕业论文/设计</td></tr><tr><td>大四下</td><td>答辩</td><td>参加毕业答辩</td></tr><tr><td>毕业前</td><td>离校手续</td><td>办理离校手续</td></tr></tbody></table><h2 id="毕业准备建议" tabindex="-1">毕业准备建议 <a class="header-anchor" href="#毕业准备建议" aria-label="Permalink to &quot;毕业准备建议&quot;">​</a></h2><ol><li><strong>提前规划</strong>：从大三开始检查学分完成情况</li><li><strong>补修及时</strong>：如果有挂科，尽早补修</li><li><strong>论文早准备</strong>：不要等到最后一刻</li><li><strong>材料齐全</strong>：准备好各类证书和材料</li></ol><h2 id="常见问题" tabindex="-1">常见问题 <a class="header-anchor" href="#常见问题" aria-label="Permalink to &quot;常见问题&quot;">​</a></h2><p><strong>Q: 学分不够怎么办？</strong> A: 可以通过选修课程、重修等方式补足学分，但可能需要延期毕业。</p><p><strong>Q: 挂科会影响毕业吗？</strong> A: 会的，需要补修并合格才能毕业。</p><p><strong>Q: 毕业论文没通过怎么办？</strong> A: 通常有二次答辩机会，具体以学校规定为准。</p></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("学分绩点/毕业条件.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const ____ = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  ____ as default
+};
