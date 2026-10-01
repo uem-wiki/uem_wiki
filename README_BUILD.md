@@ -123,7 +123,7 @@ python build_wiki.py --skip-recent
 python build_wiki.py --update-recent
 ```
 
-默认仓库为 `wem_wiki/uem_wiki`。本地同时存在 `upstream` 远程时会优先使用
+默认仓库为 `uem_wiki/uem_wiki`。本地同时存在 `upstream` 远程时会优先使用
 `upstream`，否则依次读取 GitHub Actions 仓库环境变量和 `origin`。也可以
 显式指定：
 
