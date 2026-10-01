@@ -20,62 +20,8 @@
     })();
   </script>
 
-  <!-- 迁移公告样式（临时，2026年12月底停用后删除） -->
-  <style>
-    .mig-bar{position:fixed;top:0;left:0;right:0;z-index:1000;height:44px;display:none;align-items:center;gap:12px;padding:0 20px;background:#002f82;color:#fff;font:14px/1 'Noto Serif SC',serif;box-shadow:0 2px 8px rgba(0,0,0,.15)}
-    .mig-bar.show{display:flex}
-    .mig-bar .mig-warn{font-size:16px;flex-shrink:0}
-    .mig-bar a.mig-link{color:#90caf9;font-weight:600;text-decoration:underline}
-    .mig-bar .mig-go{margin-left:auto;background:#fff;color:#002f82;padding:4px 14px;border-radius:4px;font-weight:600;text-decoration:none!important;white-space:nowrap}
-    .mig-bar .mig-close{background:none;border:none;cursor:pointer;color:rgba(255,255,255,.7);font-size:18px;padding:0 4px;line-height:1}
-    .mig-bar .mig-close:hover{color:#fff}
-    @media(max-width:768px){.mig-bar{height:auto;flex-wrap:wrap;padding:8px 16px;font-size:13px;gap:6px}.mig-bar .mig-go{margin-left:0}}
-
-    .mig-mask{position:fixed;inset:0;z-index:2000;background:rgba(0,0,0,.45);display:none;align-items:center;justify-content:center}
-    .mig-mask.show{display:flex}
-    .mig-card{width:420px;max-width:90vw;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 12px 40px rgba(0,0,0,.2)}
-    .mig-card-top{height:6px;background:linear-gradient(90deg,#f0ad4e,#ee7600)}
-    .mig-card-body{padding:32px 28px 24px;text-align:center}
-    .mig-card h2{margin:0 0 16px;font-size:22px;color:#002f82}
-    .mig-card .mig-new{font-size:24px;font-weight:700;color:#002f82;margin:8px 0}
-    .mig-card .mig-new a{color:#002f82;text-decoration:underline}
-    .mig-card .mig-note{color:#5a4e3c;font-size:14px;line-height:1.8;margin:12px 0 20px}
-    .mig-card .mig-countdown{display:inline-block;background:#fff3cd;color:#856404;font-size:13px;padding:4px 12px;border-radius:999px;margin-bottom:18px}
-    .mig-card .mig-btns{display:flex;gap:12px;justify-content:center}
-    .mig-card .mig-btns button{padding:10px 28px;border-radius:6px;font-size:15px;cursor:pointer;border:none;font-family:inherit}
-    .mig-card .mig-btn-secondary{background:#e8e0d0;color:#2c2416}
-    .mig-card .mig-btn-primary{background:#002f82;color:#fff}
-    .mig-card .mig-btn-secondary:hover{background:#d4c9b8}
-    .mig-card .mig-btn-primary:hover{background:#001f5c}
-  </style>
 </head>
 <body>
-  <!-- 迁移公告（临时，2026年12月底停用后删除） -->
-  <div class="mig-bar" id="migBar">
-    <span class="mig-warn">⚠️</span>
-    <span>应大Wiki已迁至新站 <a class="mig-link" href="https://uemwiki.top">uemwiki.top</a>，本网址将于12月底停用</span>
-    <a class="mig-go" href="https://uemwiki.top">前往新站 →</a>
-    <button class="mig-close" id="migBarClose" title="关闭">✕</button>
-  </div>
-  <div class="mig-mask" id="migMask">
-    <div class="mig-card">
-      <div class="mig-card-top"></div>
-      <div class="mig-card-body">
-        <h2>⚠️ 网站迁移公告</h2>
-        <p class="mig-new"><a href="https://uemwiki.top">uemwiki.top</a></p>
-        <p class="mig-note">
-          应大Wiki 已迁移至新域名，旧域名 <strong>uem.xingqiwu.net.cn</strong><br>
-          将于 <strong>2026年12月底</strong> 停用，届时将自动跳转至新站。<br>
-          为确保正常使用，请将书签更新为新域名。
-        </p>
-        <div class="mig-countdown" id="migCountdown"></div>
-        <div class="mig-btns">
-          <button class="mig-btn-secondary" id="migLater">稍后提醒</button>
-          <button class="mig-btn-primary" id="migGo">前往新站 →</button>
-        </div>
-      </div>
-    </div>
-  </div>
   <nav class="app-nav" id="appNav" data-shell></nav>
   <div id="pageProgress" class="page-progress" aria-hidden="true">
     <span></span>
@@ -204,42 +150,5 @@
 
 
   <script defer src="/assets/site.js"></script>
-  <!-- 迁移公告逻辑（临时，2026年12月底停用后删除） -->
-  <script>
-  (function(){
-    var bar=document.getElementById('migBar'),mask=document.getElementById('migMask');
-    if(!bar||!mask) return;
-    var END=new Date('2026-12-31');
-    // 倒计时
-    var cd=document.getElementById('migCountdown');
-    if(cd){var d=Math.ceil((END-Date.now())/864e5);cd.textContent='距停用还有 '+d+' 天';}
-    // 首次弹窗（sessionStorage：同一次访问内不重复弹）
-    if(!sessionStorage.getItem('mig-shown')){
-      mask.classList.add('show');
-      sessionStorage.setItem('mig-shown','1');
-    } else {
-      // 已弹过，检查 Sticky Bar 是否被关闭过（localStorage 30天）
-      var dismissed=localStorage.getItem('mig-bar-dismissed');
-      if(!dismissed||Date.now()-dismissed>30*864e5) bar.classList.add('show');
-    }
-    // 关闭弹窗 → 显示 Sticky Bar
-    document.getElementById('migLater').onclick=function(){
-      mask.classList.remove('show');
-      bar.classList.add('show');
-    };
-    document.getElementById('migGo').onclick=function(){location.href='https://uemwiki.top';};
-    // Sticky Bar 关闭
-    document.getElementById('migBarClose').onclick=function(){
-      bar.classList.remove('show');
-      localStorage.setItem('mig-bar-dismissed',Date.now());
-    };
-    // 点击 Sticky Bar 文字区域 → 重新弹窗
-    bar.querySelector('.mig-warn').onclick=
-    bar.querySelector('span:nth-child(2)')?
-      bar.querySelector('span:nth-child(2)').onclick=function(){mask.classList.add('show');}:null;
-    // ESC 关闭弹窗
-    document.addEventListener('keydown',function(e){if(e.key==='Escape')mask.classList.remove('show');});
-  })();
-  </script>
 </body>
 </html>
