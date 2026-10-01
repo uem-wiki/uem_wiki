@@ -1,7 +1,29 @@
 {
   "repository": "uem-wiki/uem_wiki",
-  "generated_at": "2026-09-30T11:02:21+00:00",
+  "generated_at": "2026-10-01T02:02:37+00:00",
   "entries": [
+    {
+      "deployment_id": "6774112270",
+      "title": "Fix default repository name in build instructions",
+      "date": "2026-10-01T01:41:18Z",
+      "url": "https://github.com/uem-wiki/uem_wiki/actions/runs/36802251969/job/110179003887",
+      "commit": "e0d728eb028b498b52b6b759e39a492b5e0bddc3",
+      "environment": "github-pages",
+      "state": "success",
+      "environment_url": "http://uemwiki.top/",
+      "author": "qbdcq"
+    },
+    {
+      "deployment_id": "6774071205",
+      "title": "修复了一些已知问题",
+      "date": "2026-10-01T01:38:07Z",
+      "url": "https://github.com/uem-wiki/uem_wiki/actions/runs/36801999941/job/110178221292",
+      "commit": "657b58b9ac37cccbb325f9c878381a64cec5928f",
+      "environment": "github-pages",
+      "state": "success",
+      "environment_url": "http://uemwiki.top/",
+      "author": "雨霞 林"
+    },
     {
       "deployment_id": "6752142179",
       "title": "Update CNAME",
