@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"四六级考试","description":"","frontmatter":{},"headers":[],"relativePath":"学分绩点/四六级.md","filePath":"学分绩点/四六级.md"}');
+const _sfc_main = { name: "学分绩点/四六级.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="四六级考试" tabindex="-1">四六级考试 <a class="header-anchor" href="#四六级考试" aria-label="Permalink to &quot;四六级考试&quot;">​</a></h1><h2 id="考试概述" tabindex="-1">考试概述 <a class="header-anchor" href="#考试概述" aria-label="Permalink to &quot;考试概述&quot;">​</a></h2><p>你要问我大学期间最重要的考试是什么，我的答案是四六级考试。</p><h2 id="考试时间" tabindex="-1">考试时间 <a class="header-anchor" href="#考试时间" aria-label="Permalink to &quot;考试时间&quot;">​</a></h2><p>大学英语四/六级考试于每年6月份和12月份举行。</p><h2 id="报考资格" tabindex="-1">报考资格 <a class="header-anchor" href="#报考资格" aria-label="Permalink to &quot;报考资格&quot;">​</a></h2><ul><li>大部分新生在大一第二学期6月份会参加四级考试</li><li>如果通过将于下一学期12月参加六级考试</li><li>如果不过，谢谢参与再接再厉</li><li>学校每年也会根据新生的高考英语成绩，取一部分人在大一上报名</li></ul><h2 id="备考建议" tabindex="-1">备考建议 <a class="header-anchor" href="#备考建议" aria-label="Permalink to &quot;备考建议&quot;">​</a></h2><p>如果你英语分确实很高，不要在假期丢掉你的英语，四六级只有第一次和第无数次。</p><h2 id="考试用品" tabindex="-1">考试用品 <a class="header-anchor" href="#考试用品" aria-label="Permalink to &quot;考试用品&quot;">​</a></h2><h3 id="听力耳机" tabindex="-1">听力耳机 <a class="header-anchor" href="#听力耳机" aria-label="Permalink to &quot;听力耳机&quot;">​</a></h3><p>英语考试的听力考试需要用听力耳机。听力耳机相当于戴在头上的收音机（有的耳机能做收音机用），收听各个教学楼的播音信号。</p><p>关于耳机大学开学会有很多人卖，注意试听、检查质量，以免耽误考试。大学之后的所有英语期末考试和四六级考试都需要使用该耳机。大部分耳机使用五号电池。</p><h3 id="其他用品" tabindex="-1">其他用品 <a class="header-anchor" href="#其他用品" aria-label="Permalink to &quot;其他用品&quot;">​</a></h3><ul><li>一卡通</li><li>涂卡铅笔</li><li>橡皮</li><li>黑色碳素笔</li></ul><h2 id="考试技巧" tabindex="-1">考试技巧 <a class="header-anchor" href="#考试技巧" aria-label="Permalink to &quot;考试技巧&quot;">​</a></h2><ol><li><strong>听力</strong>：提前阅读选项，预测内容</li><li><strong>阅读</strong>：先看题目，再读文章</li><li><strong>写作</strong>：背诵模板，注意字数</li><li><strong>翻译</strong>：注意时态和语态</li></ol><h2 id="常见问题" tabindex="-1">常见问题 <a class="header-anchor" href="#常见问题" aria-label="Permalink to &quot;常见问题&quot;">​</a></h2><p><strong>Q：四六级可以刷分吗？</strong> A：可以，但建议尽早通过，不要拖到大四。</p><p><strong>Q：四六级证书丢了怎么办？</strong> A：可以申请补办成绩证明。</p><p><strong>Q：四六级多少分算过？</strong> A：一般425分以上算通过。</p></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("学分绩点/四六级.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const ___ = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  ___ as default
+};

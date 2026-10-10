@@ -1,0 +1,22 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"绩点计算","description":"","frontmatter":{},"headers":[],"relativePath":"学分绩点/绩点计算.md","filePath":"学分绩点/绩点计算.md"}');
+const _sfc_main = { name: "学分绩点/绩点计算.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="绩点计算" tabindex="-1">绩点计算 <a class="header-anchor" href="#绩点计算" aria-label="Permalink to &quot;绩点计算&quot;">​</a></h1><blockquote><p>绩点是衡量学习成绩的重要指标，影响保研、奖学金、出国等</p></blockquote><h2 id="绩点计算公式" tabindex="-1">绩点计算公式 <a class="header-anchor" href="#绩点计算公式" aria-label="Permalink to &quot;绩点计算公式&quot;">​</a></h2><h3 id="标准算法" tabindex="-1">标准算法 <a class="header-anchor" href="#标准算法" aria-label="Permalink to &quot;标准算法&quot;">​</a></h3><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>GPA = Σ(课程学分 × 课程绩点) / Σ课程学分</span></span></code></pre></div><h3 id="等级对应表" tabindex="-1">等级对应表 <a class="header-anchor" href="#等级对应表" aria-label="Permalink to &quot;等级对应表&quot;">​</a></h3><table tabindex="0"><thead><tr><th>等级</th><th>分数范围</th><th>绩点</th></tr></thead><tbody><tr><td>A+</td><td>95-100</td><td>4.3</td></tr><tr><td>A</td><td>90-94</td><td>4.0</td></tr><tr><td>A-</td><td>85-89</td><td>3.7</td></tr><tr><td>B+</td><td>82-84</td><td>3.3</td></tr><tr><td>B</td><td>78-81</td><td>3.0</td></tr><tr><td>B-</td><td>75-77</td><td>2.7</td></tr><tr><td>C+</td><td>72-74</td><td>2.3</td></tr><tr><td>C</td><td>68-71</td><td>2.0</td></tr><tr><td>C-</td><td>65-67</td><td>1.7</td></tr><tr><td>D</td><td>60-64</td><td>1.0</td></tr><tr><td>F</td><td>&lt;60</td><td>0</td></tr></tbody></table><blockquote><p>注：不同学校可能有差异，请以学校规定为准</p></blockquote><h2 id="计算示例" tabindex="-1">计算示例 <a class="header-anchor" href="#计算示例" aria-label="Permalink to &quot;计算示例&quot;">​</a></h2><p>假设你选了以下课程：</p><table tabindex="0"><thead><tr><th>课程</th><th>学分</th><th>成绩</th><th>绩点</th></tr></thead><tbody><tr><td>高等数学</td><td>4</td><td>85</td><td>3.7</td></tr><tr><td>大学英语</td><td>3</td><td>90</td><td>4.0</td></tr><tr><td>程序设计</td><td>3</td><td>82</td><td>3.3</td></tr></tbody></table><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>GPA = (4×3.7 + 3×4.0 + 3×3.3) / (4+3+3)</span></span>
+<span class="line"><span>    = (14.8 + 12.0 + 9.9) / 10</span></span>
+<span class="line"><span>    = 36.7 / 10</span></span>
+<span class="line"><span>    = 3.67</span></span></code></pre></div><h2 id="绩点提升建议" tabindex="-1">绩点提升建议 <a class="header-anchor" href="#绩点提升建议" aria-label="Permalink to &quot;绩点提升建议&quot;">​</a></h2><ol><li><strong>重课要重视</strong>：学分高的课程对绩点影响大</li><li><strong>不要偏科</strong>：每门课都要认真对待</li><li><strong>及时补救</strong>：如果期中成绩不理想，期末要加把劲</li><li><strong>利用补考</strong>：如果有挂科，及时补考</li></ol><h2 id="注意事项" tabindex="-1">注意事项 <a class="header-anchor" href="#注意事项" aria-label="Permalink to &quot;注意事项&quot;">​</a></h2><ul><li>绩点是累积计算的，每门课都很重要</li><li>重修成绩会覆盖原成绩（具体以学校规定为准）</li><li>保研、出国通常要求 GPA 3.5 以上</li></ul></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("学分绩点/绩点计算.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const ____ = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  ____ as default
+};

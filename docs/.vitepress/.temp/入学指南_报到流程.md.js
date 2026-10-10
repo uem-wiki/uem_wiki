@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"报到流程","description":"","frontmatter":{},"headers":[],"relativePath":"入学指南/报到流程.md","filePath":"入学指南/报到流程.md"}');
+const _sfc_main = { name: "入学指南/报到流程.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="报到流程" tabindex="-1">报到流程 <a class="header-anchor" href="#报到流程" aria-label="Permalink to &quot;报到流程&quot;">​</a></h1><h2 id="报到前准备" tabindex="-1">报到前准备 <a class="header-anchor" href="#报到前准备" aria-label="Permalink to &quot;报到前准备&quot;">​</a></h2><h3 id="必带物品" tabindex="-1">必带物品 <a class="header-anchor" href="#必带物品" aria-label="Permalink to &quot;必带物品&quot;">​</a></h3><ol><li><p><strong>证件类</strong></p><ul><li>录取通知书</li><li>身份证（及复印件）</li><li>户口迁移证（如需要）</li><li>团组织关系、党组织关系</li><li>一寸、二寸照片各几张</li><li>高考准考证</li></ul></li><li><p><strong>生活用品</strong></p><ul><li>换洗衣物</li><li>常用药品</li><li>旧毛巾（打扫宿舍床铺）</li><li>被子、被罩、枕头、枕巾、枕套、床单、蚊帐（可到校购买或邮寄）</li></ul></li><li><p><strong>其他</strong></p><ul><li>现金（备用）</li><li>银行卡（学校发放的中国银行卡）</li></ul></li></ol><h3 id="注意事项" tabindex="-1">注意事项 <a class="header-anchor" href="#注意事项" aria-label="Permalink to &quot;注意事项&quot;">​</a></h3><ul><li>录取通知书中可能含有中国银行卡，务必保管好，大学四年的奖学金、助学金、学费书费缴纳都是通过这张卡</li><li>中行卡丢了先补办，三食堂西餐厅旁有营业厅</li><li>办理助学贷款和贫困助学金的同学，暑假期间把各类证明和材料预备好</li><li>大学是有校服的，21届开始的是全蓝色，只有大一军训和学校重要仪式的时候穿</li></ul><h2 id="报到当天流程" tabindex="-1">报到当天流程 <a class="header-anchor" href="#报到当天流程" aria-label="Permalink to &quot;报到当天流程&quot;">​</a></h2><ol><li><p><strong>到校后</strong></p><ul><li>找到本学院的迎新点（会有志愿者指引）</li><li>认准工作人员的工作牌、志愿者马甲、胸牌、袖标</li></ul></li><li><p><strong>办理手续</strong></p><ul><li>会有工作人员带着新生逐一完成各项手续</li><li>领取宿舍钥匙</li><li>办理校园卡</li><li>领取军训服装</li></ul></li><li><p><strong>入住宿舍</strong></p><ul><li>到分配的宿舍楼</li><li>找到自己的宿舍号</li><li>整理床铺</li></ul></li></ol><h2 id="报到时间" tabindex="-1">报到时间 <a class="header-anchor" href="#报到时间" aria-label="Permalink to &quot;报到时间&quot;">​</a></h2><ul><li>正式报到日期一般在8月底至9月初，具体看通知书</li><li>学长学姐们正式上课的第一周的周六和周日，就是正式迎新的两天</li><li>正式迎新前一天的下午就已经可以顺利报到并办理正常的入学手续</li></ul><h2 id="温馨提示" tabindex="-1">温馨提示 <a class="header-anchor" href="#温馨提示" aria-label="Permalink to &quot;温馨提示&quot;">​</a></h2><ul><li>报到一定要注意最后期限问题，若是超时不报到，可能无法取得学籍</li><li>每个学院都会有志愿者去接，他们会有志愿者马甲、胸牌、袖标其中之一</li><li>建议找个靠谱的学长学姐，最好是老乡或者同一院系的学长学姐</li><li>凭借录取通知书可于本地火车站购买优惠火车票（坐票半价，卧铺75折，高铁动车75折）</li></ul></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("入学指南/报到流程.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const ____ = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  ____ as default
+};

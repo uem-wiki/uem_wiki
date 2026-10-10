@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"奖学金与资助","description":"","frontmatter":{},"headers":[],"relativePath":"学分绩点/奖学金与资助.md","filePath":"学分绩点/奖学金与资助.md"}');
+const _sfc_main = { name: "学分绩点/奖学金与资助.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="奖学金与资助" tabindex="-1">奖学金与资助 <a class="header-anchor" href="#奖学金与资助" aria-label="Permalink to &quot;奖学金与资助&quot;">​</a></h1><h2 id="奖学金概述" tabindex="-1">奖学金概述 <a class="header-anchor" href="#奖学金概述" aria-label="Permalink to &quot;奖学金概述&quot;">​</a></h2><p>应大是部委大学，相应地各类奖学金会很多，同类型奖学金一般会多于同水平的高校，而且贫困补助也会多于一般的学校。</p><h3 id="重要提醒" tabindex="-1">重要提醒 <a class="header-anchor" href="#重要提醒" aria-label="Permalink to &quot;重要提醒&quot;">​</a></h3><ul><li>奖学金不是你大学的全部</li><li>贫困补助不是你占便宜的工具</li></ul><h2 id="如何获得奖学金" tabindex="-1">如何获得奖学金 <a class="header-anchor" href="#如何获得奖学金" aria-label="Permalink to &quot;如何获得奖学金&quot;">​</a></h2><p>如何加量化，奖学金如何评，这个会在开学来的新生手册上写的明明白白，清清楚楚，大家无需担心忧虑，但你是否真的需要量化，这是你需要想的。</p><h3 id="关于绩点和奖学金的思考" tabindex="-1">关于绩点和奖学金的思考 <a class="header-anchor" href="#关于绩点和奖学金的思考" aria-label="Permalink to &quot;关于绩点和奖学金的思考&quot;">​</a></h3><p>作为一名大学生，尤其是一名在后疫情时代，经济局势不容乐观的时期上大学的大学生，你要考虑的就不仅仅是眼前的利益了，奖学金，绩点，就是你要考虑是否需要的东西了。</p><p>在社会上，你在大学中取得的一切成绩都一文不值，如果你不是真的需要靠奖学金维持学业，那么请不要把它当成唯一目标。</p><p>应大的期末考试相对较简单，所以只要期末认真预习，便可以取得一个相对较高的成绩。</p><h3 id="那我们应该干啥" tabindex="-1">那我们应该干啥？ <a class="header-anchor" href="#那我们应该干啥" aria-label="Permalink to &quot;那我们应该干啥？&quot;">​</a></h3><p>去找方向，去找机会，北京太大了，中国太大了，总有机会，总有机会。</p><p>有人问：专业不就是我的方向嘛？</p><p><strong>NO！！！</strong></p><p>大部分人在上大学之前根本没有了解过这个专业的发展方向是什么，这个专业真正需要学什么。</p><p>有人说，我就是喜欢计算机，那你给我讲讲数据结构，讲讲C++，讲讲计算机组成原理，如果你真心了解你的专业，那你的发展路径就是清晰的，如果你不知道。</p><p>那就去行动，去北京，旷课去北京，去听名校的讲座，去接触不同的老师，去干一切你感兴趣的，你不感兴趣的事情，甚至暂时觉得&quot;没用&quot;的事情。这一路上你会看到不同的风景，看到不同的人。</p><p>笔者身边有本科计算机，研究生考共产党史的，有从电子信息转到地质工程的，也有把健身这个爱好变成职业的，他们上大学都是抱着自己各自不同的专业来的应大，但都找到了不同的方向，找到了自己热爱的东西。</p><p>笔者始终坚信一句话：<strong>只有热爱才能支撑你走到最后，才能帮助你建立丰功伟绩。</strong></p><p>你抱着未知来到大学，拿着一个从来没听过的专业的通知书，浑浑噩噩，按部就班的度过大学四年，谈何脱颖而出。你来这里，不只是为了拿一张文凭离开的。</p><p><strong>你的大学，不是用来&quot;熬&quot;绩点的。</strong></p><p>大学的意义，是让你学会对以往深信不疑的规则进行反思——包括你现在所处的评价体系本身。</p><h2 id="挂科的影响" tabindex="-1">挂科的影响 <a class="header-anchor" href="#挂科的影响" aria-label="Permalink to &quot;挂科的影响&quot;">​</a></h2><p>别挂科！挂科这些真的全扯淡！！！</p><ul><li>挂科需要重修</li><li>影响奖学金评定</li><li>影响入党、评优评先</li><li>严重者影响毕业</li></ul><h2 id="基层就业学费补偿贷款代偿" tabindex="-1">基层就业学费补偿贷款代偿 <a class="header-anchor" href="#基层就业学费补偿贷款代偿" aria-label="Permalink to &quot;基层就业学费补偿贷款代偿&quot;">​</a></h2><p>毕业时去基层工作的同学，国家帮你把学费&quot;退回来&quot;，或者帮你还清国家助学贷款。应大是应急管理部直属的中央高校，毕业生符合申请资格。</p><ul><li>对象：应届全日制毕业生（定向、委培除外）</li><li>标准：本专科每年最高 16000 元，研究生每年最高 20000 元，按学制分年发放</li><li>条件：到中西部、艰苦边远地区的县以下基层单位就业，签订 3 年以上合同</li><li>河北属中部地区，大部分区域符合（雄安新区除外）；地震、地质、煤炭、核工业等艰苦行业生产一线也符合，应大很多专业直接对口</li><li>不予批准：县级以上机关、高校，以及金融、房地产、通讯等非艰苦行业</li><li>学费补偿和助学贷款代偿只能二选一，具体以学校学生资助部门通知为准</li></ul><p>相关申请通过全国学生资助管理与服务平台办理：<a href="https://yd.xszz.edu.cn/#/" target="_blank" rel="noreferrer">yd.xszz.edu.cn</a>（应大专属入口，奖学金、助学金、助学贷款都在这里）。</p><p>审核说明原件：<a href="学费补偿代偿审核说明2024版.pdf" target="_blank">在线查看（PDF）</a>｜<a href="学费补偿代偿审核说明2024版.doc" download>下载原件（Word 版）</a></p></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("学分绩点/奖学金与资助.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const ______ = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  ______ as default
+};
