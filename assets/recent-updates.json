@@ -1,7 +1,62 @@
 {
   "repository": "uem-wiki/uem_wiki",
-  "generated_at": "2026-09-30T11:02:21+00:00",
+  "generated_at": "2026-10-10T12:55:52+00:00",
   "entries": [
+    {
+      "deployment_id": "6980491199",
+      "title": "Revert \"feat: 迁移公告——弹窗+Sticky Bar，引导用户至新域名uemwiki.top\"",
+      "date": "2026-10-10T12:08:11Z",
+      "url": "https://github.com/uem-wiki/uem_wiki/actions/runs/38050837560/job/114209499174",
+      "commit": "3199fe109b8213d90c95fd2ef5befebe0d68aeea",
+      "environment": "github-pages",
+      "state": "success",
+      "environment_url": "http://uemwiki.top/",
+      "author": "learnerCodeZ"
+    },
+    {
+      "deployment_id": "6781964813",
+      "title": "Revert \"feat: 迁移公告——弹窗+Sticky Bar，引导用户至新域名uemwiki.top\"",
+      "date": "2026-10-01T10:27:41Z",
+      "url": "https://github.com/uem-wiki/uem_wiki/actions/runs/36849204648/job/110326661622",
+      "commit": "105e65345bbc85e3a822eb882a649adab2d82e4e",
+      "environment": "github-pages",
+      "state": "success",
+      "environment_url": "http://uemwiki.top/",
+      "author": "learnerCodeZ"
+    },
+    {
+      "deployment_id": "6781494023",
+      "title": "feat: 迁移公告——弹窗+Sticky Bar，引导用户至新域名uemwiki.top",
+      "date": "2026-10-01T10:01:29Z",
+      "url": "https://github.com/uem-wiki/uem_wiki/actions/runs/36846435446/job/110317626168",
+      "commit": "c24a959e8cb4067b2f6fec471ef73010a7b25b61",
+      "environment": "github-pages",
+      "state": "success",
+      "environment_url": "http://uemwiki.top/",
+      "author": "learnerCodeZ"
+    },
+    {
+      "deployment_id": "6774112270",
+      "title": "Fix default repository name in build instructions",
+      "date": "2026-10-01T01:41:18Z",
+      "url": "https://github.com/uem-wiki/uem_wiki/actions/runs/36802251969/job/110179003887",
+      "commit": "e0d728eb028b498b52b6b759e39a492b5e0bddc3",
+      "environment": "github-pages",
+      "state": "success",
+      "environment_url": "http://uemwiki.top/",
+      "author": "qbdcq"
+    },
+    {
+      "deployment_id": "6774071205",
+      "title": "修复了一些已知问题",
+      "date": "2026-10-01T01:38:07Z",
+      "url": "https://github.com/uem-wiki/uem_wiki/actions/runs/36801999941/job/110178221292",
+      "commit": "657b58b9ac37cccbb325f9c878381a64cec5928f",
+      "environment": "github-pages",
+      "state": "success",
+      "environment_url": "http://uemwiki.top/",
+      "author": "雨霞 林"
+    },
     {
       "deployment_id": "6752142179",
       "title": "Update CNAME",
@@ -12,17 +67,6 @@
       "state": "success",
       "environment_url": "http://uemwiki.top/",
       "author": "edge"
-    },
-    {
-      "deployment_id": "6752122405",
-      "title": "feat(博客): 新增 IronRoyal、SUXING 博客卡片 + 侧边栏改名「链接」",
-      "date": "2026-09-30T05:18:42Z",
-      "url": "https://github.com/uem-wiki/uem_wiki/actions/runs/36672788392/job/109751261327",
-      "commit": "4f2766301dfee486521081c3eae402a96158ad2f",
-      "environment": "github-pages",
-      "state": "success",
-      "environment_url": "https://uem-wiki.github.io/uem_wiki/",
-      "author": "learnerCodeZ"
     }
   ]
 }
