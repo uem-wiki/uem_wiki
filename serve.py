@@ -8,7 +8,6 @@
 import http.server
 import socketserver
 import os
-import subprocess
 import sys
 import threading
 import webbrowser
@@ -22,43 +21,7 @@ if sys.platform == "win32":
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 PORT = 8080
-VITEPRESS_PORT = 5173
 BASE_DIR = Path(__file__).parent
-
-
-def start_vitepress_server():
-    """Start the VitePress test site alongside the legacy preview server."""
-    npm_command = "npm.cmd" if sys.platform == "win32" else "npm"
-    command = [
-        npm_command,
-        "run",
-        "docs:dev",
-        "--",
-        "--port",
-        str(VITEPRESS_PORT),
-        "--strictPort",
-    ]
-
-    try:
-        return subprocess.Popen(command, cwd=BASE_DIR)
-    except FileNotFoundError:
-        print(
-            "[Test site] npm was not found; the VitePress test site was not started.",
-            flush=True,
-        )
-        return None
-
-
-def stop_process(process):
-    if process is None or process.poll() is not None:
-        return
-
-    process.terminate()
-    try:
-        process.wait(timeout=5)
-    except subprocess.TimeoutExpired:
-        process.kill()
-        process.wait()
 
 
 class Handler(http.server.SimpleHTTPRequestHandler):
@@ -97,16 +60,11 @@ if __name__ == "__main__":
 ========================================
 """, flush=True)
 
-    vitepress_server = start_vitepress_server()
-    if vitepress_server is not None:
-        print(f"[Test site] http://localhost:{VITEPRESS_PORT}", flush=True)
-
     try:
         server = socketserver.ThreadingTCPServer(("", PORT), Handler)
     except OSError:
         print(f"[Error] Port {PORT} is already in use.", flush=True)
         print(f"       Run: netstat -ano | findstr :{PORT}", flush=True)
-        stop_process(vitepress_server)
         sys.exit(1)
 
     server.allow_reuse_address = True
@@ -138,4 +96,3 @@ if __name__ == "__main__":
         server.shutdown()
     finally:
         server.server_close()
-        stop_process(vitepress_server)

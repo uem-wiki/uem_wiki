@@ -1,7 +1,51 @@
 {
   "repository": "uem-wiki/uem_wiki",
-  "generated_at": "2026-10-10T12:55:52+00:00",
+  "generated_at": "2026-11-21T07:10:37+00:00",
   "entries": [
+    {
+      "deployment_id": "7458724356",
+      "title": "feat(学长学姐博客): 新增博主 Linw（软件工程25级，vibe coding/航拍摄影，linw.cn）",
+      "date": "2026-10-31T12:41:10Z",
+      "url": "https://github.com/uem-wiki/uem_wiki/actions/runs/41202165676/job/124540015082",
+      "commit": "94489146dea0948992299158c8579c4d3eb76a6d",
+      "environment": "github-pages",
+      "state": "success",
+      "environment_url": "http://uemwiki.top/",
+      "author": "learnerCodeZ"
+    },
+    {
+      "deployment_id": "7458390410",
+      "title": "预载了一些vitepress相关资源",
+      "date": "2026-10-31T12:10:43Z",
+      "url": "https://github.com/uem-wiki/uem_wiki/actions/runs/41199904134/job/124533522849",
+      "commit": "d8def9c0073977280f4e71031af14d2c03a5b004",
+      "environment": "github-pages",
+      "state": "success",
+      "environment_url": "http://uemwiki.top/",
+      "author": "雨霞 林"
+    },
+    {
+      "deployment_id": "7016599320",
+      "title": "Revert \"feat: 迁移公告——弹窗+Sticky Bar，引导用户至新域名uemwiki.top\"",
+      "date": "2026-10-12T14:36:44Z",
+      "url": "https://github.com/uem-wiki/uem_wiki/actions/runs/38264128392/job/114861934034",
+      "commit": "105e65345bbc85e3a822eb882a649adab2d82e4e",
+      "environment": "github-pages",
+      "state": "success",
+      "environment_url": "http://uemwiki.top/",
+      "author": "learnerCodeZ"
+    },
+    {
+      "deployment_id": "6981157355",
+      "title": "预载了一些vitepress相关资源",
+      "date": "2026-10-10T13:04:28Z",
+      "url": "https://github.com/uem-wiki/uem_wiki/actions/runs/38054298506/job/114219522541",
+      "commit": "28fbecb568b1366ac8616381cb791382a9ca585d",
+      "environment": "github-pages",
+      "state": "success",
+      "environment_url": "http://uemwiki.top/",
+      "author": "雨霞 林"
+    },
     {
       "deployment_id": "6980491199",
       "title": "Revert \"feat: 迁移公告——弹窗+Sticky Bar，引导用户至新域名uemwiki.top\"",
@@ -12,61 +56,6 @@
       "state": "success",
       "environment_url": "http://uemwiki.top/",
       "author": "learnerCodeZ"
-    },
-    {
-      "deployment_id": "6781964813",
-      "title": "Revert \"feat: 迁移公告——弹窗+Sticky Bar，引导用户至新域名uemwiki.top\"",
-      "date": "2026-10-01T10:27:41Z",
-      "url": "https://github.com/uem-wiki/uem_wiki/actions/runs/36849204648/job/110326661622",
-      "commit": "105e65345bbc85e3a822eb882a649adab2d82e4e",
-      "environment": "github-pages",
-      "state": "success",
-      "environment_url": "http://uemwiki.top/",
-      "author": "learnerCodeZ"
-    },
-    {
-      "deployment_id": "6781494023",
-      "title": "feat: 迁移公告——弹窗+Sticky Bar，引导用户至新域名uemwiki.top",
-      "date": "2026-10-01T10:01:29Z",
-      "url": "https://github.com/uem-wiki/uem_wiki/actions/runs/36846435446/job/110317626168",
-      "commit": "c24a959e8cb4067b2f6fec471ef73010a7b25b61",
-      "environment": "github-pages",
-      "state": "success",
-      "environment_url": "http://uemwiki.top/",
-      "author": "learnerCodeZ"
-    },
-    {
-      "deployment_id": "6774112270",
-      "title": "Fix default repository name in build instructions",
-      "date": "2026-10-01T01:41:18Z",
-      "url": "https://github.com/uem-wiki/uem_wiki/actions/runs/36802251969/job/110179003887",
-      "commit": "e0d728eb028b498b52b6b759e39a492b5e0bddc3",
-      "environment": "github-pages",
-      "state": "success",
-      "environment_url": "http://uemwiki.top/",
-      "author": "qbdcq"
-    },
-    {
-      "deployment_id": "6774071205",
-      "title": "修复了一些已知问题",
-      "date": "2026-10-01T01:38:07Z",
-      "url": "https://github.com/uem-wiki/uem_wiki/actions/runs/36801999941/job/110178221292",
-      "commit": "657b58b9ac37cccbb325f9c878381a64cec5928f",
-      "environment": "github-pages",
-      "state": "success",
-      "environment_url": "http://uemwiki.top/",
-      "author": "雨霞 林"
-    },
-    {
-      "deployment_id": "6752142179",
-      "title": "Update CNAME",
-      "date": "2026-09-30T05:20:23Z",
-      "url": "https://github.com/uem-wiki/uem_wiki/actions/runs/36672907514/job/109751635399",
-      "commit": "91a9f696bd46060e10be687b70d1e75d88c8c43f",
-      "environment": "github-pages",
-      "state": "success",
-      "environment_url": "http://uemwiki.top/",
-      "author": "edge"
     }
   ]
 }
